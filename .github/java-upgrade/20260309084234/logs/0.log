@@ -1,0 +1,961 @@
+2026-03-09T08:42:34.263Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:42:34.264Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "sessionId": ""
+}}).
+2026-03-09T08:42:34.265Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:42:34.267Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:42:34.268Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:44:25.380Z [INFO] ---------------------prepare list_jdks----------------------
+2026-03-09T08:44:25.380Z [INFO] [Tool.prepareInvocation]({name: list_jdks, input: {
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T08:44:25.381Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:44:25.381Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-03-09T08:44:25.381Z [INFO] ----------------------prepared list_jdks----------------------
+2026-03-09T08:44:25.425Z [INFO] ----------------------invoke list_jdks----------------------
+2026-03-09T08:44:25.426Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T08:44:25.426Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:44:25.443Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.17\n   📁 Path: C:\\Program Files\\Microsoft\\jdk-17.0.17.10-hotspot\\bin\n   🏷️ Source: others\n\n2. Java 21.0.9\n   📁 Path: C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\nTotal: 2 JDK installation(s) found"
+}}).
+2026-03-09T08:44:25.444Z [INFO] ----------------------invoked list_jdks----------------------
+2026-03-09T08:44:25.462Z [INFO] ---------------------prepare list_mavens----------------------
+2026-03-09T08:44:25.463Z [INFO] [Tool.prepareInvocation]({name: list_mavens, input: {
+  "includeVersion": true,
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T08:44:25.463Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:44:25.464Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-03-09T08:44:25.464Z [INFO] ----------------------prepared list_mavens----------------------
+2026-03-09T08:44:25.508Z [INFO] ----------------------invoke list_mavens----------------------
+2026-03-09T08:44:25.508Z [INFO] [Tool.invoke]({name: list_mavens, input: {
+  "includeVersion": true,
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T08:44:25.509Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:44:27.526Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 3.9.11\n   📁 Path: C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin\n   🏷️ Source: PATH\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-03-09T08:44:27.527Z [INFO] ----------------------invoked list_mavens----------------------
+2026-03-09T08:46:03.131Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:46:03.131Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:03.132Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:46:03.132Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:46:03.133Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:46:03.303Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:46:03.303Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:03.304Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:46:03.304Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planInitialized' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:46:03.305Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:46:12.072Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:46:12.073Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:12.073Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:46:12.073Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:46:12.074Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:46:12.120Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:46:12.120Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:12.120Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:46:12.121Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentAnalyzed' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:46:12.121Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:46:12.140Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:46:12.140Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:12.141Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:46:12.141Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:46:12.141Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:46:12.190Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:46:12.191Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:12.192Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:46:12.193Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'dependenciesAnalyzed' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:46:12.193Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:46:12.208Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:46:12.209Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:12.209Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:46:12.210Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:46:12.210Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:46:12.253Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:46:12.254Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:12.254Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:46:12.255Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradePathDesigned' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:46:12.255Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:46:39.669Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:46:39.670Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:39.670Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:46:39.670Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:46:39.671Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:46:39.853Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:46:39.854Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:46:39.854Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:46:39.855Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:46:39.855Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:46:46.777Z [INFO] ---------------------prepare confirm_upgrade_plan----------------------
+2026-03-09T08:46:46.777Z [INFO] [Tool.prepareInvocation]({name: confirm_upgrade_plan, input: {
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T08:46:46.778Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:46:46.778Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Review [upgrade plan](file:///c:/Users/saida/Desktop/Gpp/Bank Account Management System/.github/java-upgrade/20260309084234/plan.md)",
+  "confirmationMessages": {
+    "title": "Plan generated",
+    "message": "Please review the generated plan and make any necessary adjustments before proceeding. You can modify the generated [`plan.md`](file:///c:/Users/saida/Desktop/Gpp/Bank Account Management System/.github/java-upgrade/20260309084234/plan.md) directly."
+  }
+}}).
+2026-03-09T08:46:46.778Z [INFO] ----------------------prepared confirm_upgrade_plan----------------------
+2026-03-09T08:46:52.903Z [INFO] ----------------------invoke confirm_upgrade_plan----------------------
+2026-03-09T08:46:52.903Z [INFO] [Tool.invoke]({name: confirm_upgrade_plan, input: {
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T08:46:52.903Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:46:52.904Z [INFO] Upgrade plan confirmed successfully.
+2026-03-09T08:46:52.906Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now and be tracked in markdown file: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234\\progress.md."
+}}).
+2026-03-09T08:46:52.907Z [INFO] ----------------------invoked confirm_upgrade_plan----------------------
+2026-03-09T08:47:00.287Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:47:00.288Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:47:00.288Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:47:00.288Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:47:00.289Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:47:00.336Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:47:00.336Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:47:00.336Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:47:00.337Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planConfirmed' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:47:00.337Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:47:37.227Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:47:37.227Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:47:37.228Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:47:37.228Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:47:37.228Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:47:37.385Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:47:37.385Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:47:37.386Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:47:37.461Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:47:37.461Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T08:48:30.454Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T08:48:30.455Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "details": {
+    "jdkPath": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+    "buildToolPath": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin"
+  },
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:48:30.455Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T08:48:30.456Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T08:48:30.456Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T08:48:30.636Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T08:48:30.636Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "details": {
+    "jdkPath": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+    "buildToolPath": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin"
+  },
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T08:48:30.637Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T08:48:30.637Z [INFO] Project c:\Users\saida\Desktop\Gpp\Bank Account Management System is not a maven project, try to get java version from gradle
+2026-03-09T08:48:30.650Z [INFO] Try to get java version from gradle config files: 
+2026-03-09T08:48:30.651Z [INFO] Try to get java version from gradle properties: undefined
+2026-03-09T08:48:30.651Z [INFO] Project java version: 8
+2026-03-09T08:48:30.652Z [INFO] Build tool type detected from path: mvn
+2026-03-09T08:48:30.652Z [INFO] Build tool type: mvn
+2026-03-09T08:48:30.652Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+  "version": "8"
+}
+2026-03-09T08:48:30.652Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+  "version": ""
+}
+2026-03-09T08:48:30.652Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "Bank Account Management System",
+  "dir": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System"
+}
+2026-03-09T08:49:11.869Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T08:49:11.869Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:16:14.195Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:16:14.196Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:16:14.197Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:16:14.197Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:16:14.197Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:16:14.408Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:16:14.409Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:16:14.410Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:16:14.411Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:16:14.411Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:16:25.658Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:16:25.658Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Update Build Configuration for Java 21"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:16:25.659Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:16:25.659Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:16:25.659Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:16:25.898Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:16:25.898Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Update Build Configuration for Java 21"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:16:25.899Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:16:25.899Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:16:25.900Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:16:35.320Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:16:35.320Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:16:35.320Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:16:35.321Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:16:35.321Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:16:35.455Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:16:35.455Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:16:35.456Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:16:35.456Z [INFO] Project c:\Users\saida\Desktop\Gpp\Bank Account Management System is a maven project, try to get java version from pom.xml
+2026-03-09T09:16:35.472Z [INFO] Project java version: 21
+2026-03-09T09:16:35.472Z [INFO] Maven project detected.
+2026-03-09T09:16:35.473Z [INFO] Build tool type: mvn
+2026-03-09T09:16:35.488Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+  "version": "21"
+}
+2026-03-09T09:16:35.494Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+  "version": "",
+  "source": "PATH"
+}
+2026-03-09T09:16:35.494Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "PATH"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "Bank Account Management System",
+  "dir": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System"
+}
+2026-03-09T09:16:35.495Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\saida\Desktop\Gpp\Bank Account Management System
+2026-03-09T09:16:35.495Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\saida\Desktop\Gpp\Bank Account Management System
+2026-03-09T09:16:35.496Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-b4ad86a8-9ac0-492b-a795-39d6e292a8f6.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.partnr:bank-account-management-system >--------------
+[INFO] Building bank-account-management-system 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.4.1:effective-pom (default-cli) @ bank-account-management-system ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.pom
+Progress (1): 860 BProgress (1): 2.3 kBProgress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.pom (3.3 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.12.0/maven-plugin-tools-3.12.0.pom
+Progress (1): 797 BProgress (1): 1.7 kBProgress (1): 3.6 kBProgress (1): 7.7 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.12.0/maven-plugin-tools-3.12.0.pom (17 kB at 150 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.jar
+Progress (1): 0.9/43 kBProgress (1): 2.3/43 kBProgress (1): 3.6/43 kBProgress (1): 5.0/43 kBProgress (1): 6.4/43 kBProgress (1): 7.7/43 kBProgress (1): 9.1/43 kBProgress (1): 10/43 kB Progress (1): 12/43 kBProgress (1): 13/43 kBProgress (1): 15/43 kBProgress (1): 16/43 kBProgress (1): 17/43 kBProgress (1): 19/43 kBProgress (1): 20/43 kBProgress (1): 21/43 kBProgress (1): 23/43 kBProgress (1): 24/43 kBProgress (1): 26/43 kBProgress (1): 27/43 kBProgress (1): 28/43 kBProgress (1): 30/43 kBProgress (1): 31/43 kBProgress (1): 32/43 kBProgress (1): 33/43 kBProgress (1): 35/43 kBProgress (1): 36/43 kBProgress (1): 38/43 kBProgress (1): 39/43 kBProgress (1): 40/43 kBProgress (1): 42/43 kBProgress (1): 43/43 kBProgress (1): 43 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.12.0/maven-plugin-tools-generators-3.12.0.jar (43 kB at 191 kB/s)
+[INFO] Effective-POM written to: c:\Users\saida\Desktop\Gpp\Bank Account Management System\effective-pom-b4ad86a8-9ac0-492b-a795-39d6e292a8f6.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.121 s
+[INFO] Finished at: 2026-03-09T14:46:41+05:30
+[INFO] ------------------------------------------------------------------------
+2026-03-09T09:16:41.567Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-03-09T09:16:41.578Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-09T09:16:41.578Z [INFO] [MavenBuildTool] Cleaning c:\Users\saida\Desktop\Gpp\Bank Account Management System using Maven
+2026-03-09T09:16:41.579Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+2026-03-09T09:16:44.284Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:16:44.284Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:18:53.647Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:18:53.647Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "details": {
+    "commitId": "9557fb74742fa0aa0d13b916ec84134146667fc2",
+    "stepNumber": 3,
+    "stepTitle": "Update Build Configuration for Java 21"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:18:53.648Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:18:53.648Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:18:53.649Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:18:53.869Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:18:53.870Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "details": {
+    "commitId": "9557fb74742fa0aa0d13b916ec84134146667fc2",
+    "stepNumber": 3,
+    "stepTitle": "Update Build Configuration for Java 21"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:18:53.870Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:18:53.990Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:18:53.990Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:19:41.769Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:19:41.769Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:19:41.769Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:19:41.770Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:19:41.770Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:19:41.803Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:19:41.803Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:19:41.803Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:19:41.804Z [INFO] Project c:\Users\saida\Desktop\Gpp\Bank Account Management System is a maven project, try to get java version from pom.xml
+2026-03-09T09:19:41.804Z [INFO] Project java version: 21
+2026-03-09T09:19:41.805Z [INFO] Maven project detected.
+2026-03-09T09:19:41.805Z [INFO] Build tool type: mvn
+2026-03-09T09:19:41.814Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+  "version": "21"
+}
+2026-03-09T09:19:41.817Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+  "version": "",
+  "source": "PATH"
+}
+2026-03-09T09:19:41.817Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "PATH"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "Bank Account Management System",
+  "dir": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System"
+}
+2026-03-09T09:19:41.817Z [INFO] [BaseBuildTool] Gathering test results...
+2026-03-09T09:19:41.825Z [INFO] [BaseBuildTool] Summarizing surefire reports.
+2026-03-09T09:19:41.825Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:19:41.826Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:19:55.173Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:19:55.173Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "details": {
+    "commitId": "9557fb74742fa0aa0d13b916ec84134146667fc2",
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:19:55.173Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:19:55.174Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:19:55.174Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:19:55.354Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:19:55.354Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "details": {
+    "commitId": "9557fb74742fa0aa0d13b916ec84134146667fc2",
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:19:55.354Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:19:55.355Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:19:55.355Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:19:55.374Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:19:55.375Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:19:55.375Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:19:55.375Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:19:55.375Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:19:55.409Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:19:55.409Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:19:55.409Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:19:55.506Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:19:55.506Z [INFO] ----------------------invoked report_event----------------------
+2026-03-09T09:22:09.181Z [INFO] ---------------------prepare validate_cves_for_java----------------------
+2026-03-09T09:22:09.181Z [INFO] [Tool.prepareInvocation]({name: validate_cves_for_java, input: {
+  "dependencies": [
+    "org.springframework.boot:spring-boot-starter-web:3.3.5",
+    "org.springframework.boot:spring-boot-starter-data-jpa:3.3.5",
+    "org.springframework.boot:spring-boot-starter-validation:3.3.5",
+    "org.axonframework:axon-spring-boot-starter:4.10.3",
+    "org.postgresql:postgresql:42.7.4",
+    "org.springframework.boot:spring-boot-starter-test:3.3.5",
+    "org.axonframework:axon-test:4.10.3"
+  ],
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T09:22:09.182Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:22:09.182Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Validate CVEs"
+}}).
+2026-03-09T09:22:09.182Z [INFO] ----------------------prepared validate_cves_for_java----------------------
+2026-03-09T09:22:09.212Z [INFO] ----------------------invoke validate_cves_for_java----------------------
+2026-03-09T09:22:09.212Z [INFO] [Tool.invoke]({name: validate_cves_for_java, input: {
+  "dependencies": [
+    "org.springframework.boot:spring-boot-starter-web:3.3.5",
+    "org.springframework.boot:spring-boot-starter-data-jpa:3.3.5",
+    "org.springframework.boot:spring-boot-starter-validation:3.3.5",
+    "org.axonframework:axon-spring-boot-starter:4.10.3",
+    "org.postgresql:postgresql:42.7.4",
+    "org.springframework.boot:spring-boot-starter-test:3.3.5",
+    "org.axonframework:axon-test:4.10.3"
+  ],
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234"
+}}).
+2026-03-09T09:22:09.212Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:22:09.213Z [INFO] Project c:\Users\saida\Desktop\Gpp\Bank Account Management System is a maven project, try to get java version from pom.xml
+2026-03-09T09:22:09.214Z [INFO] Project java version: 21
+2026-03-09T09:22:09.214Z [INFO] Maven project detected.
+2026-03-09T09:22:09.214Z [INFO] Build tool type: mvn
+2026-03-09T09:22:09.224Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+  "version": "21"
+}
+2026-03-09T09:22:09.227Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+  "version": "",
+  "source": "PATH"
+}
+2026-03-09T09:22:09.227Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "PATH"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Microsoft\\jdk-21.0.9.10-hotspot\\bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "Bank Account Management System",
+  "dir": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System"
+}
+2026-03-09T09:22:09.227Z [INFO] [Environment] Running command (Java undefined): mvn dependency:tree -B
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.partnr:bank-account-management-system >--------------
+[INFO] Building bank-account-management-system 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.6.1:tree (default-cli) @ bank-account-management-system ---
+[INFO] com.partnr:bank-account-management-system:jar:1.0.0
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:3.3.5:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:3.3.5:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:3.3.5:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:3.3.5:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:3.3.5:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.5.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.5.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.23.1:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.23.1:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.16:compile
+[INFO] |  |  +- jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:2.2:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:3.3.5:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.17.2:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.17.2:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.17.2:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.17.2:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.17.2:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:3.3.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.31:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.31:compile
+[INFO] |  +- org.springframework:spring-web:jar:6.1.14:compile
+[INFO] |  |  +- org.springframework:spring-beans:jar:6.1.14:compile
+[INFO] |  |  \- io.micrometer:micrometer-observation:jar:1.13.6:compile
+[INFO] |  |     \- io.micrometer:micrometer-commons:jar:1.13.6:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:6.1.14:compile
+[INFO] |     +- org.springframework:spring-aop:jar:6.1.14:compile
+[INFO] |     +- org.springframework:spring-context:jar:6.1.14:compile
+[INFO] |     \- org.springframework:spring-expression:jar:6.1.14:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-data-jpa:jar:3.3.5:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-aop:jar:3.3.5:compile
+[INFO] |  |  \- org.aspectj:aspectjweaver:jar:1.9.22.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:3.3.5:compile
+[INFO] |  |  +- com.zaxxer:HikariCP:jar:5.1.0:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:6.1.14:compile
+[INFO] |  +- org.hibernate.orm:hibernate-core:jar:6.5.3.Final:compile
+[INFO] |  |  +- jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile
+[INFO] |  |  +- jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.5.3.Final:compile
+[INFO] |  |  +- org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime
+[INFO] |  |  +- io.smallrye:jandex:jar:3.1.2:runtime
+[INFO] |  |  +- com.fasterxml:classmate:jar:1.7.0:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.14.19:runtime
+[INFO] |  |  +- org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime
+[INFO] |  |  |  \- org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime
+[INFO] |  |  |     +- org.eclipse.angus:angus-activation:jar:2.0.2:runtime
+[INFO] |  |  |     +- org.glassfish.jaxb:txw2:jar:4.0.5:runtime
+[INFO] |  |  |     \- com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime
+[INFO] |  |  +- jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime
+[INFO] |  |  \- org.antlr:antlr4-runtime:jar:4.13.0:compile
+[INFO] |  +- org.springframework.data:spring-data-jpa:jar:3.3.5:compile
+[INFO] |  |  +- org.springframework.data:spring-data-commons:jar:3.3.5:compile
+[INFO] |  |  +- org.springframework:spring-orm:jar:6.1.14:compile
+[INFO] |  |  +- org.springframework:spring-tx:jar:6.1.14:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:2.0.16:compile
+[INFO] |  \- org.springframework:spring-aspects:jar:6.1.14:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-validation:jar:3.3.5:compile
+[INFO] |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.31:compile
+[INFO] |  \- org.hibernate.validator:hibernate-validator:jar:8.0.1.Final:compile
+[INFO] |     \- jakarta.validation:jakarta.validation-api:jar:3.0.2:compile
+[INFO] +- org.axonframework:axon-spring-boot-starter:jar:4.10.3:compile
+[INFO] |  +- org.axonframework:axon-spring-boot-autoconfigure:jar:4.10.3:compile
+[INFO] |  |  \- org.axonframework:axon-server-connector:jar:4.10.3:compile
+[INFO] |  |     \- io.axoniq:axonserver-connector-java:jar:2024.1.1:compile
+[INFO] |  |        +- io.grpc:grpc-protobuf:jar:1.65.1:compile
+[INFO] |  |        |  +- io.grpc:grpc-api:jar:1.65.1:compile
+[INFO] |  |        |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |        |  +- com.google.protobuf:protobuf-java:jar:3.25.1:compile
+[INFO] |  |        |  +- com.google.api.grpc:proto-google-common-protos:jar:2.29.0:compile
+[INFO] |  |        |  +- com.google.guava:guava:jar:32.1.3-android:compile
+[INFO] |  |        |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |        |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |        |  |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] |  |        |  \- io.grpc:grpc-protobuf-lite:jar:1.65.1:runtime
+[INFO] |  |        +- io.grpc:grpc-stub:jar:1.65.1:compile
+[INFO] |  |        |  \- com.google.errorprone:error_prone_annotations:jar:2.23.0:compile
+[INFO] |  |        \- io.grpc:grpc-netty-shaded:jar:1.65.1:compile
+[INFO] |  |           +- io.grpc:grpc-util:jar:1.65.1:runtime
+[INFO] |  |           |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
+[INFO] |  |           +- io.grpc:grpc-core:jar:1.65.1:compile
+[INFO] |  |           |  +- com.google.code.gson:gson:jar:2.10.1:runtime
+[INFO] |  |           |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  |           |  \- io.grpc:grpc-context:jar:1.65.1:runtime
+[INFO] |  |           \- io.perfmark:perfmark-api:jar:0.26.0:runtime
+[INFO] |  +- org.axonframework:axon-spring:jar:4.10.3:compile
+[INFO] |  +- org.axonframework:axon-configuration:jar:4.10.3:compile
+[INFO] |  |  \- org.axonframework:axon-disruptor:jar:4.10.3:compile
+[INFO] |  |     \- com.lmax:disruptor:jar:3.4.4:compile
+[INFO] |  +- org.axonframework:axon-eventsourcing:jar:4.10.3:compile
+[INFO] |  +- org.axonframework:axon-modelling:jar:4.10.3:compile
+[INFO] |  \- org.axonframework:axon-messaging:jar:4.10.3:compile
+[INFO] |     +- org.reactivestreams:reactive-streams:jar:1.0.4:compile
+[INFO] |     \- com.thoughtworks.xstream:xstream:jar:1.4.20:compile
+[INFO] |        \- io.github.x-stream:mxparser:jar:1.2.2:compile
+[INFO] |           \- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] +- org.postgresql:postgresql:jar:42.7.4:runtime
+[INFO] |  \- org.checkerframework:checker-qual:jar:3.42.0:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:3.3.5:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:3.3.5:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:3.3.5:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.9.0:test
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:runtime
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:2.1.3:runtime
+[INFO] |  +- net.minidev:json-smart:jar:2.5.1:test
+[INFO] |  |  \- net.minidev:accessors-smart:jar:2.5.1:test
+[INFO] |  |     \- org.ow2.asm:asm:jar:9.6:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.25.3:test
+[INFO] |  +- org.awaitility:awaitility:jar:4.2.2:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter:jar:5.10.5:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-api:jar:5.10.5:test
+[INFO] |  |  |  +- org.opentest4j:opentest4j:jar:1.3.0:test
+[INFO] |  |  |  +- org.junit.platform:junit-platform-commons:jar:1.10.5:test
+[INFO] |  |  |  \- org.apiguardian:apiguardian-api:jar:1.1.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-params:jar:5.10.5:test
+[INFO] |  |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.10.5:test
+[INFO] |  |     \- org.junit.platform:junit-platform-engine:jar:1.10.5:test
+[INFO] |  +- org.mockito:mockito-core:jar:5.11.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.14.19:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:3.3:test
+[INFO] |  +- org.mockito:mockito-junit-jupiter:jar:5.11.0:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.3:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:6.1.14:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:6.1.14:compile
+[INFO] |  +- org.springframework:spring-test:jar:6.1.14:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.9.1:test
+[INFO] \- org.axonframework:axon-test:jar:4.10.3:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.709 s
+[INFO] Finished at: 2026-03-09T14:52:13+05:30
+[INFO] ------------------------------------------------------------------------
+2026-03-09T09:22:13.393Z [INFO] [MavenBuildTool] Successfully got dependency tree of c:\Users\saida\Desktop\Gpp\Bank Account Management System
+2026-03-09T09:22:13.394Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\saida\Desktop\Gpp\Bank Account Management System from pom.xml
+2026-03-09T09:22:13.395Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\saida\Desktop\Gpp\Bank Account Management System
+2026-03-09T09:22:13.395Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\saida\Desktop\Gpp\Bank Account Management System
+2026-03-09T09:22:13.395Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\saida\Desktop\Gpp\Bank Account Management System
+2026-03-09T09:22:13.396Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-31b59590-c2ab-4a88-ad31-e0b0a00107ff.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.partnr:bank-account-management-system >--------------
+[INFO] Building bank-account-management-system 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.4.1:effective-pom (default-cli) @ bank-account-management-system ---
+[INFO] Effective-POM written to: c:\Users\saida\Desktop\Gpp\Bank Account Management System\effective-pom-31b59590-c2ab-4a88-ad31-e0b0a00107ff.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.698 s
+[INFO] Finished at: 2026-03-09T14:52:16+05:30
+[INFO] ------------------------------------------------------------------------
+2026-03-09T09:22:16.857Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\saida\Desktop\Gpp\Bank Account Management System\pom.xml
+2026-03-09T09:22:16.857Z [INFO] [MavenBuildTool] Java version found in c:\Users\saida\Desktop\Gpp\Bank Account Management System\pom.xml: 21
+2026-03-09T09:22:16.872Z [INFO] Getting CVEs for dependencies: org.springframework.boot:spring-boot-starter-web:3.3.5,org.springframework.boot:spring-boot-starter-data-jpa:3.3.5,org.springframework.boot:spring-boot-starter-validation:3.3.5,org.axonframework:axon-spring-boot-starter:4.10.3,org.postgresql:postgresql:42.7.4,org.springframework.boot:spring-boot-starter-test:3.3.5,org.axonframework:axon-test:4.10.3
+2026-03-09T09:22:16.873Z [INFO] getting CVEs for dependencies:
+ - org.springframework.boot:spring-boot-starter-web:3.3.5
+  - org.springframework.boot:spring-boot-starter-data-jpa:3.3.5
+  - org.springframework.boot:spring-boot-starter-validation:3.3.5
+  - org.axonframework:axon-spring-boot-starter:4.10.3
+  - org.postgresql:postgresql:42.7.4
+  - org.springframework.boot:spring-boot-starter-test:3.3.5
+  - org.axonframework:axon-test:4.10.3...
+2026-03-09T09:22:16.873Z [INFO] getting gitHub access token...
+2026-03-09T09:22:16.875Z [INFO] Processing batch 1/1, size: 7
+2026-03-09T09:22:16.877Z [INFO] listing CVEs from GitHub for dependencies [
+  "org.springframework.boot:spring-boot-starter-web:3.3.5",
+  "org.springframework.boot:spring-boot-starter-data-jpa:3.3.5",
+  "org.springframework.boot:spring-boot-starter-validation:3.3.5",
+  "org.axonframework:axon-spring-boot-starter:4.10.3",
+  "org.postgresql:postgresql:42.7.4",
+  "org.springframework.boot:spring-boot-starter-test:3.3.5",
+  "org.axonframework:axon-test:4.10.3"
+]
+2026-03-09T09:22:18.416Z [INFO] Fetched 1 total advisories across all pages
+2026-03-09T09:22:18.417Z [INFO] grouping CVEs and finding max patched version by dep...
+2026-03-09T09:22:18.417Z [INFO] done getting 1 CVEs for 7 dependencies
+2026-03-09T09:22:18.418Z [INFO] calculating patched version by dep...
+2026-03-09T09:22:18.421Z [INFO] CVE CVE-2025-49146 for org.postgresql:postgresql:42.7.4: patched version 42.7.7
+2026-03-09T09:22:18.421Z [INFO] finished getting CVEs for dependencies.
+2026-03-09T09:22:18.422Z [INFO] Found 1 dependencies with known CVEs
+2026-03-09T09:22:18.424Z [INFO] CVE issues found:
+- Dependency `org.postgresql:postgresql:42.7.4` has **1** known CVEs need to be fixed:
+  - [CVE-2025-49146](https://github.com/advisories/GHSA-hq9p-pm7w-8p54): pgjdbc Client Allows Fallback to Insecure Authentication Despite channelBinding=require Configuration
+    - **Severity**: **HIGH**
+    - **Details**: ### Impact
+      When the PostgreSQL JDBC driver is configured with channel binding set to `required` (default value is `prefer`), the driver would incorrectly allow connections to proceed with authentication methods that do not support channel binding (such as password, MD5, GSS, or SSPI  authentication). This could allow a man-in-the-middle attacker to intercept connections that users believed were protected by channel binding requirements.
+      
+      ### Patches
+      TBD
+      
+      ### Workarounds
+      
+      Configure `sslMode=verify-full` to prevent MITM attacks.
+      
+      ### References
+      
+      * https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256
+      * https://datatracker.ietf.org/doc/html/rfc7677
+      * https://datatracker.ietf.org/doc/html/rfc5802
+2026-03-09T09:22:18.424Z [INFO] [Tool.invoke]({result: {
+  "message": "The following dependencies have known CVEs that need to be fixed:\n- Dependency `org.postgresql:postgresql:42.7.4` has **1** known CVEs need to be fixed:\n  - [CVE-2025-49146](https://github.com/advisories/GHSA-hq9p-pm7w-8p54): pgjdbc Client Allows Fallback to Insecure Authentication Despite channelBinding=require Configuration\n    - **Severity**: **HIGH**\n    - **Details**: ### Impact\n      When the PostgreSQL JDBC driver is configured with channel binding set to `required` (default value is `prefer`), the driver would incorrectly allow connections to proceed with authentication methods that do not support channel binding (such as password, MD5, GSS, or SSPI  authentication). This could allow a man-in-the-middle attacker to intercept connections that users believed were protected by channel binding requirements.\n      \n      ### Patches\n      TBD\n      \n      ### Workarounds\n      \n      Configure `sslMode=verify-full` to prevent MITM attacks.\n      \n      ### References\n      \n      * https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256\n      * https://datatracker.ietf.org/doc/html/rfc7677\n      * https://datatracker.ietf.org/doc/html/rfc5802",
+  "result": [
+    {
+      "cves": [
+        {
+          "id": "CVE-2025-49146",
+          "ghsa_id": "GHSA-hq9p-pm7w-8p54",
+          "severity": "high",
+          "summary": "pgjdbc Client Allows Fallback to Insecure Authentication Despite channelBinding=require Configuration",
+          "description": "### Impact\nWhen the PostgreSQL JDBC driver is configured with channel binding set to `required` (default value is `prefer`), the driver would incorrectly allow connections to proceed with authentication methods that do not support channel binding (such as password, MD5, GSS, or SSPI  authentication). This could allow a man-in-the-middle attacker to intercept connections that users believed were protected by channel binding requirements.\n\n### Patches\nTBD\n\n### Workarounds\n\nConfigure `sslMode=verify-full` to prevent MITM attacks.\n\n### References\n\n* https://www.postgresql.org/docs/current/sasl-authentication.html#SASL-SCRAM-SHA-256\n* https://datatracker.ietf.org/doc/html/rfc7677\n* https://datatracker.ietf.org/doc/html/rfc5802",
+          "html_url": "https://github.com/advisories/GHSA-hq9p-pm7w-8p54",
+          "affectedDeps": [
+            {
+              "name": "org.postgresql:postgresql",
+              "vulVersions": ">= 42.7.4, < 42.7.7",
+              "patchedVersion": "42.7.7"
+            }
+          ]
+        }
+      ],
+      "dep": "org.postgresql:postgresql:42.7.4",
+      "name": "org.postgresql:postgresql",
+      "version": "42.7.4",
+      "semver": "42.7.4",
+      "unfixableCves": [],
+      "patchedVersion": "42.7.7"
+    }
+  ],
+  "telemetry": {
+    "cve.high": 1,
+    "cves": "{\"CVE-2025-49146\":1}"
+  }
+}}).
+2026-03-09T09:22:18.425Z [INFO] ----------------------invoked validate_cves_for_java----------------------
+2026-03-09T09:24:39.915Z [INFO] ---------------------prepare report_event----------------------
+2026-03-09T09:24:39.916Z [INFO] [Tool.prepareInvocation]({name: report_event, input: {
+  "event": "summaryGenerated",
+  "message": "Java 17 to 21 upgrade completed successfully. All compilation tests pass. 1 HIGH CVE detected in PostgreSQL driver (mitigation available).",
+  "phase": "summarize",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:24:39.916Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-09T09:24:39.917Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-09T09:24:39.917Z [INFO] ----------------------prepared report_event----------------------
+2026-03-09T09:24:40.058Z [INFO] ----------------------invoke report_event----------------------
+2026-03-09T09:24:40.059Z [INFO] [Tool.invoke]({name: report_event, input: {
+  "event": "summaryGenerated",
+  "message": "Java 17 to 21 upgrade completed successfully. All compilation tests pass. 1 HIGH CVE detected in PostgreSQL driver (mitigation available).",
+  "phase": "summarize",
+  "projectPath": "c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System",
+  "sessionId": "20260309084234",
+  "status": "succeeded"
+}}).
+2026-03-09T09:24:40.059Z [INFO] [Tool.invoke] do invoke.
+2026-03-09T09:24:40.159Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'summaryGenerated' reported!\nSession ID: 20260309084234,\nSession Dir: c:\\Users\\saida\\Desktop\\Gpp\\Bank Account Management System\\.github\\java-upgrade\\20260309084234"
+}}).
+2026-03-09T09:24:40.159Z [INFO] ----------------------invoked report_event----------------------
