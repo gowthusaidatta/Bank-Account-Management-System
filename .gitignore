@@ -1,0 +1,21 @@
+# Maven / Java build output
+target/
+*.class
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime / logs
+*.log
+
+# Local environment
+.env
+
+# Optional local tooling directories
+.github/java-upgrade/
