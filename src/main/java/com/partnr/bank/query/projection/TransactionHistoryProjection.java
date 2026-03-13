@@ -2,6 +2,7 @@ package com.partnr.bank.query.projection;
 
 import java.time.Instant;
 
+import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.axonframework.eventhandling.ResetHandler;
 import org.axonframework.eventhandling.Timestamp;
@@ -13,6 +14,7 @@ import com.partnr.bank.query.entity.TransactionHistoryEntry;
 import com.partnr.bank.query.repository.TransactionHistoryRepository;
 
 @Component
+@ProcessingGroup("transaction-history")
 public class TransactionHistoryProjection {
 
     private final TransactionHistoryRepository repository;
