@@ -104,7 +104,7 @@ public class BankAccountController {
 
     @GetMapping("/{accountId}/events")
     public ResponseEntity<List<EventStreamItemResponse>> getEvents(@PathVariable String accountId) {
-        DomainEventStream eventStream = eventStore.readEvents(accountId);
+        DomainEventStream eventStream = eventStore.readEvents(accountId, 0L);
         List<EventStreamItemResponse> response = new ArrayList<>();
 
         while (eventStream.hasNext()) {
@@ -139,7 +139,7 @@ public class BankAccountController {
             throw new IllegalArgumentException("Timestamp must be a valid ISO-8601 instant");
         }
 
-        DomainEventStream eventStream = eventStore.readEvents(accountId);
+        DomainEventStream eventStream = eventStore.readEvents(accountId, 0L);
         if (!eventStream.hasNext()) {
             throw new AccountNotFoundException("Account not found: " + accountId);
         }
